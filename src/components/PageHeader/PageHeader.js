@@ -1,4 +1,4 @@
-import bg from "@/images/resources/nyungweculture.jpg";
+import bg from "@/images/resources/nyungweculture.jpeg";
 import Link from "next/link";
 import React from "react";
 import { Container } from "react-bootstrap";

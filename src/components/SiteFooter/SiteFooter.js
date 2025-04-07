@@ -24,7 +24,7 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/" legacyBehavior>
                       <a>
-                        <Image src={logo.src} alt="" style={{width:"100%",height:"70px"}}/>
+                        <Image src={logo.src} alt="" style={{width:"100%",height:"150px"}}/>
                       </a>
                     </Link>
                   </div>
@@ -48,7 +48,7 @@ const SiteFooter = () => {
                 </div>
               </Col>
               <Col xl={2} lg={6} md={6} className="animated fadeInUp">
-                <div className="footer-widget__column footer-widget__company clearfix">
+                {/* <div className="footer-widget__column footer-widget__company clearfix">
                   <h3 className="footer-widget__title">Company</h3>
                   <ul className="footer-widget__company-list list-unstyled">
                     {companies.map(({ id, link, title }) => (
@@ -63,7 +63,7 @@ const SiteFooter = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </Col>
               <Col xl={2} lg={6} md={6} className="animated fadeInUp">
                 <div className="footer-widget__column footer-widget__explore">

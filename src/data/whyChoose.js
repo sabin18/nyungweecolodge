@@ -1,4 +1,4 @@
-import bg from "@/images/resources/nyungweculture.jpg";
+import bg from "@/images/resources/nyungweculture.jpeg";
 import bg2 from "@/images/shapes/why-choose-right-map.png";
 
 const whyChoose = {

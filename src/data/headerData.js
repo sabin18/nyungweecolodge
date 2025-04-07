@@ -1,5 +1,5 @@
-import logo from "@/images/resources/nyungweculture.jpg";
-import logo2 from "@/images/resources/logo-2.png";
+import logo from "@/images/resources/nyungweculture.jpeg";
+import logo2 from "@/images/resources/nyungweculture.jpeg";
 
 const navItems = [
   {
@@ -98,7 +98,7 @@ const headerData = {
     {
       id: 2,
       icon: "icon-at",
-      content: "nyungweculturalvillage@gmail.com",
+      content: "nyungweecolodge@gmail.com",
       subHref: "mailto",
     },
   ],

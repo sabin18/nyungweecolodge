@@ -1,4 +1,4 @@
-import about from "@/images/resources/nyungweculture.jpg";
+import about from "@/images/resources/nyungweculture.jpeg";
 import shape1 from "@/images/shapes/about-one-shape-1.png";
 import shape2 from "@/images/shapes/about-one-shape-2.png";
 
@@ -10,9 +10,9 @@ const aboutOne = {
   discount: "",
   tagline: "Get to know us",
   title: "Plan Your Trip with Nyungwe Ecolodge",
-  destination:"Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly people offer unique experiences in one of the most remarkable countries in the world. It is blessed with extraordinary biodiversity, with incredible wildlife living throughout its volcanoes, montane rainforest and sweeping plains.Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet there is so much more to see and experience.",
+  destination:"Nyungwe Ecolodge is accommodation that’s offer bed and breakfast it located in Nyamasheke – Gisakura District near Nyungwe National Park its situated in natural areas such as rainforest, mountains and near wildlife reserved, that’s allows the guest to experience the beaty of the nature environment. Despite on the focus of sustainability and environmental impact, Iwacu ecolodge aims to provide guest high quality of services. Iwacu ecolodge has ecofriendly material with nice view of mountain surrounded with tea plantation of Gisakura with favorable good climate that’s makes guest be comfortable and feel at home.",
   points: [
-    "As guardians of many iconic species, Rwanda is committed to safeguarding their existence within the four National Parks.",
+    "If you require any assistance during your stay please contact reception or Guest Host. The Duty Manager can also be contacted via reception.",
     "Our country is full of beauty and managing to explore it all is easy, thanks to an excellent road network linking the core areas.",
     "Visitors can rest assured the country is safe as well as stunning – Rwanda was ranked the 9th safest country in the world by the World Economic Forum.",
   ],
