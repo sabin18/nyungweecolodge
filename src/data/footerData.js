@@ -1,4 +1,4 @@
-import logo from "@/images/resources/nyungweculture.jpg";
+import logo from "@/images/resources/nyungweculture.jpeg";
 
 const social = [
   { icon: "fa-facebook-square", link: "https://www.facebook.com/profile.php?id=61552967395485" },
@@ -12,7 +12,7 @@ const footerData = {
   year: new Date().getFullYear(),
   author: "Nyungwe Ecolodge",
   about:
-    "Welcome to accommodation",
+    "Welcome to our accommodation",
   icons: [
     {
       id: 1,
@@ -23,7 +23,7 @@ const footerData = {
     {
       id: 2,
       icon: "fas fa-envelope",
-      content: "nyungweculturalvillage@gmail.com",
+      content: "nyungweecolodge@gmail.com",
       subHref: "mailto",
     },
     {
