@@ -1,4 +1,4 @@
-import image from "@/images/destination/Rwanda-culture.jpeg";
+import image from "@/images/destination/ecolodgehouse.jpg";
 
 const aboutPage = {
   image,
