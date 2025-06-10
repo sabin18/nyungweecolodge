@@ -1,9 +1,9 @@
 import logo from "@/images/resources/nyungweculture.jpeg";
 
 const social = [
-  { icon: "fa-facebook-square", link: "https://www.facebook.com/profile.php?id=61552967395485" },
-  { icon: "fa-twitter", link: "https://twitter.com/adventure_64364" },
-  { icon: "fa-instagram", link: "https://www.instagram.com/adventureforyou9/" },
+  { icon: "fa-facebook-square", link: "https://www.facebook.com/nyungweecolodge" },
+  { icon: "fa-twitter", link: "https://twitter.com/nyungweecolodge" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/nyungweecolodge/" },
 ];
 
 const footerData = {

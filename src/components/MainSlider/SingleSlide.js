@@ -18,7 +18,7 @@ const SingleSlide = ({ slide = {} }) => {
         <div className="swiper-slide-inner">
           <Row>
             <Col xl={12}>
-              <h2>{title}</h2>
+              <h3 style={{fontSize:"48px",color:"#386b33"}}>{title}</h3>
               <p>{subTitle}</p>
             </Col>
           </Row>

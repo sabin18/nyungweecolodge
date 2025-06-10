@@ -7,19 +7,19 @@ const mainSliderData = [
     id: 1,
     bg: bg1,
     subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    title: "WELCOME TO NYUNGWE ECOLODGE WHERE COMFORT MEETS CONSERVATION",
   },
   {
     id: 2,
     bg: bg2,
     subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    title: "WELCOME TO NYUNGWE ECOLODGE WHERE COMFORT MEETS CONSERVATION",
   },
   {
     id: 3,
     bg: bg3,
     subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    title: "WELCOME TO NYUNGWE ECOLODGE WHERE COMFORT MEETS CONSERVATION",
   },
 ];
 

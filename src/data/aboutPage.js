@@ -5,7 +5,7 @@ const aboutPage = {
   tagline: "Learn about us",
   title: "Dare to Explore with Nyungwe Ecolodge",
   text1: "A Simply Perfect Place to Get Lost",
-  text2:"Nyungwe Ecolodge is accommodation that’s offer bed and breakfast it located in Nyamasheke – Gisakura District near Nyungwe National Park its situated in natural areas such as rainforest, mountains and near wildlife reserved, that’s allows the guest to experience the beaty of the nature environment. Despite on the focus of sustainability and environmental impact, Iwacu ecolodge aims to provide guest high quality of services. Iwacu ecolodge has ecofriendly material with nice view of mountain surrounded with tea plantation of Gisakura with favorable good climate that’s makes guest be comfortable and feel at home. ",
+  text2:"Nyungwe Ecolodge is an accommodation facility that offers comfortable bed and breakfast accommodation alongside a convenient bar and restaurant. It’s located in Gisakura Nyamasheke district near Nyungwe national park which allows the guests to experience the beauty of the natural environment.At Nyungwe Ecolodge, our commitment extends far beyond providing comfortable accommodation. We are driven by a deep respect for the environment and a profound belief in sustainable practices. Our Ecolodge is built and operated with minimal impact, embracing eco-friendly technologies and supporting local conservation initiatives. When you choose to stay with us, you become a part of this mission, contributing directly to the preservation of Nyungwe National Park and the empowerment of its communities. Join us in experiencing the beauty of nature responsibly and creating lasting memories.",
   progress: [
     // {
       // 140706375
