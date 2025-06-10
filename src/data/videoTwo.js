@@ -4,7 +4,7 @@ const videoTwo = {
   bg,
   videoId: "2p9Qt60W91Q",
   tagline: "Are you ready to travel?",
-  title: "Nyungwe Ecolodge is a accommodation that’s offer bed and breakfast .",
+  title: "Nyungwe Ecolodge offers comfortable and eco-friendly accommodation",
 };
 
 export default videoTwo;
