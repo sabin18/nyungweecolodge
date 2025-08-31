@@ -1,12 +1,12 @@
 const popularTours = [
   {
     id: 1,
-    image: "single.jpeg",
+    image: "single.jpg",
     title: "SINGLE",
     superb: "8.0",
-    rate: "60$ ",
+    rate: "35$ ",
     description:"Iwacu ecolodge has ecofriendly material with nice view of mountain surrounded with tea plantation of Gisakura with favorable good climate that’s makes guest be comfortable and feel at home. ",
-    meta: ["Single 1-","RUSIZI"],
+    meta: ["Single 1",""],
     col: 3,
   },
   {
@@ -14,9 +14,9 @@ const popularTours = [
     image: "2 single_rooms.jpg",
     title: "DOUBLE",
     superb: "8.0",
-    rate: "30$ ",
+    rate: "50$ ",
     description:"Iwacu ecolodge has ecofriendly material with nice view of mountain surrounded with tea plantation of Gisakura with favorable good climate that’s makes guest be comfortable and feel at home.",
-    meta: ["Single 2-","RUSIZI"],
+    meta: ["Single 2",""],
     col: 6,
   },
   {
@@ -26,7 +26,7 @@ const popularTours = [
     superb: "8.0",
     rate:"60$ ",
     description:"Iwacu ecolodge has ecofriendly material with nice view of mountain surrounded with tea plantation of Gisakura with favorable good climate that’s makes guest be comfortable and feel at home.",
-    meta: ["Single 3 -","RUSIZI"],
+    meta: ["Single 3",""],
     col: 3,
   },
   // {
