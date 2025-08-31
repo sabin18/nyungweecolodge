@@ -1,3 +1,5 @@
+"use Client"
+
 import SingleTour from "@/components/PopularTours/SingleTour";
 import popularTours from "@/data/popularTours";
 import { tourDetailsLeft } from "@/data/tourDetailsPage";
@@ -6,25 +8,65 @@ import { Col, Row } from "react-bootstrap";
 import ReviewForm from "./ReviewForm";
 import ReviewScoreBar from "./ReviewScoreBar";
 import SingleComment from "./SingleComment";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
+
 const { overview, overviewList, faq, superb, reviewScore, comments, reviews } =
   tourDetailsLeft;
 
 const TourDetailsLeft = () => {
-  const router = useRouter()
-  const { id } = router.query
+  const router = useRouter();
+  const { id } = router.query;
   const [active, setActive] = useState(1);
-  const tours = popularTours.find((popular)=>popular.id==id);
+  const tours = popularTours.find((popular) => popular.id == id);
+
+  const onpenFile = (url)=>{
+    window.open(`${url}`, '_blank')
+  }
 
   return (
     <div className="tour-details-two__left">
       <div className="tour-details-two__overview">
         <h3 className="tour-details-two__title">Overview</h3>
         <p className="tour-details-two__overview-text">{tours?.description}</p>
-        {/* <div className="tour-details-two__overview-bottom">
-          <h3 className="tour-details-two-overview__title">OTHER SERVICES CAMPING AND HIKING RENTING </h3>
+        <div className="tour-details-two__overview-bottom">
+          <h3 className="tour-details-two-overview__title">OUR MENU </h3>
           <div className="tour-details-two__overview-bottom-inner">
-            <div className="tour-details-two__overview-bottom-left">
+            <div className="inner">
+              <p>MENU LIST </p>
+              <ul className="list-unstyled">
+                <li key={1} className="list-unstyled py-2">
+                  <button
+                    style={{ zIndex: 0 }}
+                    type="submit"
+                    className="thm-btn p-4"
+                     onClick={()=>{onpenFile("/Food_Menu.pdf", '_blank')}}
+                  >
+                   CLICK TO VIEW FOODS MENU
+                  </button>
+                </li>
+                <li key={2} className="list-unstyled py-2">
+                  <button
+                    style={{ zIndex: 0 }}
+                    type="submit"
+                    className="thm-btn p-4"
+                    onClick={()=>{onpenFile(`/DRINKS_MENU.pdf`, '_blank')}}
+                  >
+                   CLICK TO VIEW  DRINKS MENU
+                  </button>
+                </li>
+                <li key={2} className="list-unstyled py-2">
+                  <button
+                    style={{ zIndex: 0 }}
+                    type="submit"
+                    className="thm-btn p-4"
+                    onClick={()=>{onpenFile("/service.pdf", '_blank')}}
+                  >
+                   CLICK TO VIEW  SERVICES
+                  </button>
+                </li>
+              </ul>
+            </div>
+            {/* <div className="tour-details-two__overview-bottom-left">
               <ul className="list-unstyled tour-details-two__overview-bottom-list">
                 {overviewList.slice(0, 7).map((over, index) => (
                   <li key={index}>
@@ -37,8 +79,8 @@ const TourDetailsLeft = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="tour-details-two__overview-bottom-right">
+            </div> */}
+            {/* <div className="tour-details-two__overview-bottom-right">
             <h3 className="tour-details-two-overview__title">Terms and Privacy</h3>
               <ul className="list-unstyled tour-details-two__overview-bottom-right-list">
                 {overviewList.slice(7).map((over, index) => (
@@ -52,9 +94,9 @@ const TourDetailsLeft = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
-        </div> */}
+        </div>
       </div>
       {/* <div className="tour-details-two__tour-plan">
         <h3 className="tour-details-two__title">Tour Plan</h3>
